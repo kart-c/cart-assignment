@@ -1,0 +1,32 @@
+.priceContainer {
+	width: 40%;
+}
+
+.couponBtn {
+	color: black;
+	text-decoration: underline;
+}
+
+.backdrop {
+	left: 0;
+}
+
+.details {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-right: 2.4rem;
+	margin: 24px 0;
+}
+
+.labelContainer {
+	margin: 10px 0;
+}
+
+.labelContainer > label {
+	font-size: 1.6rem;
+}
+
+.labelContainer > input:disabled + label {
+	cursor: not-allowed;
+}

@@ -1,0 +1,112 @@
+{
+	"products": [
+		{
+			"id": "9fb96906-b00a-464d-937f-1b56f345b852",
+			"name": "Solid neck dark blue T-shirt",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kzegk280/t-shirt/d/q/d/s-t16-nbwh-sr-eyebogler-original-imagbfyamf8hwxxt.jpeg?q=50",
+			"sizes": ["S", "M", "L", "XL"],
+			"brand": "Eyebogler",
+			"idealFor": "men",
+			"price": 200
+		},
+		{
+			"id": "5485dea5-4599-4816-803a-674c5f601845",
+			"name": "Solid Trackpant",
+			"img": "https://rukminim1.flixcart.com/image/580/696/l0sgyvk0/track-pant/v/y/r/s-combo-tr1-vebnor-original-imagcgf9cqsgzwvb.jpeg?q=50",
+			"sizes": ["L", "XL"],
+			"brand": "Acrux",
+			"idealFor": "men",
+			"price": 150
+		},
+		{
+			"id": "6545303c-b5ed-4278-82d7-3a324e2fc97b",
+			"name": "Kurta",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kkfrjww0/ethnic-set/1/w/0/l-slk-111-black-subh-laxmi-original-imafzsfkxqxycnmz.jpeg?q=50",
+			"sizes": ["S", "M", "L"],
+			"brand": "Hiva Trendz",
+			"idealFor": "women",
+			"price": 170
+		},
+		{
+			"id": "e54ffc4b-83ca-48bc-9b0b-23f04a6d4783",
+			"name": "Hooded Neck T-shirt",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kl2mljk0/t-shirt/t/l/t/s-tblhdfulmask-lion-tripr-original-imagy9tc2fy5whqj.jpeg?q=50",
+			"sizes": ["S", "M", "XL"],
+			"brand": "Polo",
+			"idealFor": "men",
+			"price": 210
+		},
+		{
+			"id": "2ea7d5ef-728b-46c7-8c4a-e69aeb101254",
+			"name": "Striped Neck Blue T-shirt",
+			"img": "https://rukminim1.flixcart.com/image/580/696/l2dmky80/jean/v/d/p/32-udjeno0513-u-s-polo-association-original-imagdqeykcveah2p.jpeg?q=50",
+			"sizes": ["S", "M", "L", "XL"],
+			"brand": "Eyebogler",
+			"idealFor": "men",
+			"price": 320
+		},
+		{
+			"id": "8f1ed879-b98e-48ec-8bad-f75393644631",
+			"name": "Solid Ankle Length",
+			"img": "https://rukminim1.flixcart.com/image/580/696/l20rma80/sock/s/6/y/free-5-ankle-socks-for-girls-saleh-original-imagdga7xjqtgv8g.jpeg?q=50",
+			"sizes": ["S", "M", "L"],
+			"brand": "Saleh",
+			"idealFor": "women",
+			"price": 180
+		},
+		{
+			"id": "77468d89-5bd4-4be4-99b2-9a16dd0dc658",
+			"name": "Multi Color Dress",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kp8ntzk0/dress/r/i/z/s-aa-0119-boho-long-dress-aayu-original-imag3ghzyktnj3bz.jpeg?q=50",
+			"sizes": ["S", "M", "L", "XL"],
+			"brand": "Hiva Trendz",
+			"idealFor": "women",
+			"price": 160
+		},
+		{
+			"id": "cb0ad723-a372-425f-9f0a-087bac9afa01",
+			"name": "Wrap Pink Dress",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kxhvf680/dress/7/f/c/xs-a1204-sheetal-associates-original-imag9xt9czmjmzrz.jpeg?q=50",
+			"sizes": ["S", "M"],
+			"brand": "Hiva Trendz",
+			"idealFor": "women",
+			"price": 250
+		},
+		{
+			"id": "19a2ae5c-4554-45eb-bf36-f2dd61e33ea8",
+			"name": "Striped Round Neck Red T-shirt",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kyyqpow0/t-shirt/l/t/n/l-t67-wrwh-eyebogler-original-imagb2zyfxb3gg3g.jpeg?q=50",
+			"sizes": ["M", "L", "XL"],
+			"brand": "Eyebogler",
+			"idealFor": "men",
+			"price": 170
+		},
+		{
+			"id": "310524cf-3fed-489a-9a95-b1db780135c7",
+			"name": "Full Sleave Sweatshirt",
+			"img": "https://rukminim1.flixcart.com/image/580/696/ktizdzk0/sweatshirt/d/o/o/m-h16228-adidas-original-imag6ux9xbhdw4er.jpeg?q=50",
+			"sizes": ["L", "XL"],
+			"brand": "Adidas",
+			"idealFor": "men",
+			"price": 200
+		},
+		{
+			"id": "2ead9671-81f4-4340-8ef2-b2bc19cc8588",
+			"name": "Solid Collared Neck Green",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kuipea80/t-shirt/e/d/x/s-ustsh0548-u-s-polo-assn-original-imag7mnrydqxwez2.jpeg?q=50",
+			"sizes": ["S", "XL"],
+			"brand": "Polo",
+			"idealFor": "men",
+			"price": 260
+		},
+		{
+			"id": "1a6c9bce-ceb5-4295-ae20-edcbaa577ed7",
+			"name": "Solid Round neck T-shirt",
+			"img": "https://rukminim1.flixcart.com/image/580/696/kq9ta4w0/t-shirt/n/a/l/m-723-3-ftx-original-imag4bhzaya9fqyy.jpeg?q=50",
+			"sizes": ["M", "L", "XL"],
+			"brand": "Adidas",
+			"idealFor": "men",
+			"price": 300
+		}
+	]
+}
