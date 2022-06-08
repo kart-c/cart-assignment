@@ -15,6 +15,8 @@ const PriceDetails = () => {
 
 	const total = totalPrice - discountPrice;
 
+	const saved = totalPrice - total;
+
 	useEffect(() => {
 		if (discount === 15) {
 			if (totalPrice < 600) {
@@ -91,10 +93,15 @@ const PriceDetails = () => {
 						<p>Delivery Charges</p>
 						<p>FREE</p>
 					</div>
-					<div className={styles.details}>
+					<div className={`${styles.details} ${styles.total}`}>
 						<p>Total Amount</p>
 						<p>Rs. {total.toFixed(2)} /-</p>
 					</div>
+					{discount ? (
+						<div className={`${styles.details} ${styles.total}`}>
+							<p>You Saved a total of Rs. {saved} !!</p>
+						</div>
+					) : null}
 				</div>
 			</div>
 		</>

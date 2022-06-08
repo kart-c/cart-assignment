@@ -19,6 +19,10 @@
 	margin: 24px 0;
 }
 
+.total {
+	font-weight: 700;
+}
+
 .labelContainer {
 	margin: 10px 0;
 }
