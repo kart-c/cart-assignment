@@ -58,7 +58,7 @@ const Cart = () => {
 			</button>
 		</div>
 	) : (
-		<>
+		<div className={styles.main}>
 			<div className={styles.cart}>
 				{cart.length > 0 ? (
 					<>
@@ -137,7 +137,7 @@ const Cart = () => {
 				) : null}
 			</div>
 			<PriceDetails />
-		</>
+		</div>
 	);
 };
 

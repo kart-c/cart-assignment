@@ -30,3 +30,11 @@
 .labelContainer > input:disabled + label {
 	cursor: not-allowed;
 }
+
+@media only screen and (max-width: 960px) {
+	.priceContainer {
+		width: 100%;
+		max-width: 60rem;
+		margin: auto;
+	}
+}
