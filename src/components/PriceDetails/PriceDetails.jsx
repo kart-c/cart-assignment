@@ -11,9 +11,14 @@ const PriceDetails = () => {
 
 	const totalPrice = cart.reduce((acc, curr) => acc + curr.price * curr.qty, 0);
 
-	const discountPrice = discount ? (totalPrice * discount) / 100 : 0;
+	const normalDiscount = cart.reduce(
+		(acc, curr) => acc + (curr.price * curr.qty * curr.discount) / 100,
+		0
+	);
 
-	const total = totalPrice - discountPrice;
+	const couponDiscountPrice = discount ? (totalPrice * discount) / 100 : 0;
+
+	const total = totalPrice - couponDiscountPrice - normalDiscount;
 
 	const saved = totalPrice - total;
 
@@ -83,10 +88,14 @@ const PriceDetails = () => {
 						</p>
 						<p>Rs. {totalPrice.toFixed(2)} /-</p>
 					</div>
+					<div className={styles.details}>
+						<p>Discount</p>
+						<p>- Rs. {normalDiscount.toFixed(2)} /-</p>
+					</div>
 					{discount ? (
 						<div className={styles.details}>
 							<p>Discount {discount} %</p>
-							<p>- Rs. {discountPrice.toFixed(2)} /-</p>
+							<p>- Rs. {couponDiscountPrice.toFixed(2)} /-</p>
 						</div>
 					) : null}
 					<div className={styles.details}>

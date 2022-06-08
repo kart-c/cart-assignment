@@ -7,7 +7,8 @@
 			"sizes": ["S", "M", "L", "XL"],
 			"brand": "Eyebogler",
 			"idealFor": "men",
-			"price": 200
+			"price": 200,
+			"discount": 5
 		},
 		{
 			"id": "5485dea5-4599-4816-803a-674c5f601845",
@@ -16,7 +17,8 @@
 			"sizes": ["L", "XL"],
 			"brand": "Acrux",
 			"idealFor": "men",
-			"price": 150
+			"price": 150,
+			"discount": 7
 		},
 		{
 			"id": "6545303c-b5ed-4278-82d7-3a324e2fc97b",
@@ -25,7 +27,8 @@
 			"sizes": ["S", "M", "L"],
 			"brand": "Hiva Trendz",
 			"idealFor": "women",
-			"price": 170
+			"price": 170,
+			"discount": 10
 		},
 		{
 			"id": "e54ffc4b-83ca-48bc-9b0b-23f04a6d4783",
@@ -34,7 +37,8 @@
 			"sizes": ["S", "M", "XL"],
 			"brand": "Polo",
 			"idealFor": "men",
-			"price": 210
+			"price": 210,
+			"discount": 12
 		},
 		{
 			"id": "2ea7d5ef-728b-46c7-8c4a-e69aeb101254",
@@ -43,7 +47,8 @@
 			"sizes": ["S", "M", "L", "XL"],
 			"brand": "Eyebogler",
 			"idealFor": "men",
-			"price": 320
+			"price": 320,
+			"discount": 8
 		},
 		{
 			"id": "8f1ed879-b98e-48ec-8bad-f75393644631",
@@ -52,7 +57,8 @@
 			"sizes": ["S", "M", "L"],
 			"brand": "Saleh",
 			"idealFor": "women",
-			"price": 180
+			"price": 180,
+			"discount": 15
 		},
 		{
 			"id": "77468d89-5bd4-4be4-99b2-9a16dd0dc658",
@@ -61,7 +67,8 @@
 			"sizes": ["S", "M", "L", "XL"],
 			"brand": "Hiva Trendz",
 			"idealFor": "women",
-			"price": 160
+			"price": 160,
+			"discount": 5
 		},
 		{
 			"id": "cb0ad723-a372-425f-9f0a-087bac9afa01",
@@ -70,7 +77,8 @@
 			"sizes": ["S", "M"],
 			"brand": "Hiva Trendz",
 			"idealFor": "women",
-			"price": 250
+			"price": 250,
+			"discount": 20
 		},
 		{
 			"id": "19a2ae5c-4554-45eb-bf36-f2dd61e33ea8",
@@ -79,7 +87,8 @@
 			"sizes": ["M", "L", "XL"],
 			"brand": "Eyebogler",
 			"idealFor": "men",
-			"price": 170
+			"price": 170,
+			"discount": 15
 		},
 		{
 			"id": "310524cf-3fed-489a-9a95-b1db780135c7",
@@ -88,7 +97,8 @@
 			"sizes": ["L", "XL"],
 			"brand": "Adidas",
 			"idealFor": "men",
-			"price": 200
+			"price": 200,
+			"discount": 18
 		},
 		{
 			"id": "2ead9671-81f4-4340-8ef2-b2bc19cc8588",
@@ -97,7 +107,8 @@
 			"sizes": ["S", "XL"],
 			"brand": "Polo",
 			"idealFor": "men",
-			"price": 260
+			"price": 260,
+			"discount": 12
 		},
 		{
 			"id": "1a6c9bce-ceb5-4295-ae20-edcbaa577ed7",
@@ -106,7 +117,8 @@
 			"sizes": ["M", "L", "XL"],
 			"brand": "Adidas",
 			"idealFor": "men",
-			"price": 300
+			"price": 300,
+			"discount": 20
 		}
 	]
 }

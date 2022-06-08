@@ -50,3 +50,12 @@
 		margin: auto;
 	}
 }
+
+.original > small {
+	font-size: 14px;
+	color: red;
+}
+
+.original > strong {
+	text-decoration: line-through;
+}

@@ -50,6 +50,8 @@ const Cart = () => {
 		cartDispatch({ type: 'SAVE_LATER_TO_CART', payload: { updatedCart, updatedSaveLater } });
 	};
 
+	const priceAfterDiscount = (price, discount) => price - (price * discount) / 100;
+
 	return cart.length === 0 && saveForLater.length === 0 ? (
 		<div className={styles.empty}>
 			<h2>No products in cart</h2>
@@ -69,8 +71,12 @@ const Cart = () => {
 								<div className="content">
 									<h3>{cartItem.name}</h3>
 									<div className="buy-info">
+										<p className={styles.original}>
+											<strong>Rs. {cartItem.price}</strong>
+											<small> Discount {cartItem.discount} % </small>
+										</p>
 										<p>
-											<strong>Rs. {cartItem.price}</strong>{' '}
+											<strong>Rs. {priceAfterDiscount(cartItem.price, cartItem.discount)}</strong>{' '}
 										</p>
 										<div className="product-count">
 											<button
