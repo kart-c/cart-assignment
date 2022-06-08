@@ -62,7 +62,7 @@ const Cart = () => {
 			<div className={styles.cart}>
 				{cart.length > 0 ? (
 					<>
-						<h3>Cart</h3>
+						<h3>Cart ({cart.length})</h3>
 						{cart.map((cartItem) => (
 							<div className={`card horizontal-card ${styles.card}`} key={cartItem.id}>
 								<img src={cartItem.img} alt={cartItem.name} className="card-img" />
@@ -106,7 +106,7 @@ const Cart = () => {
 				) : null}
 				{saveForLater.length > 0 ? (
 					<>
-						<h3>Saved for Later</h3>
+						<h3>Saved for Later ({saveForLater.length})</h3>
 						{saveForLater.map((item) => (
 							<div key={item.id}>
 								<div className={`card horizontal-card ${styles.card}`}>
